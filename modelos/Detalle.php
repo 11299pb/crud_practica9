@@ -34,8 +34,6 @@ class Detalle extends Conexion{
         $sql .= " group by producto_nombre, producto_precio";
 
 
-        // echo $sql;
-        // exit;
 
         $resultado = self::servir($sql);
         return $resultado;
