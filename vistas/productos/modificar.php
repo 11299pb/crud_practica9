@@ -4,11 +4,7 @@ require '../../modelos/Producto.php';
         $producto = new Producto($_GET);
 
         $productos = $producto->buscar();
-        // echo "<pre>";
-        // var_dump($productos[0]['PRODUCTO_ID']);
-        // echo "</pre>";
-        // exit;
-        // $error = "NO se guardó correctamente";
+        
     } catch (PDOException $e) {
         $error = $e->getMessage();
     } catch (Exception $e2){
