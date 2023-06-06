@@ -42,6 +42,7 @@ try {
                     <tbody>
                         <?php if(count($clientes) > 0):?>
                         <?php foreach($clientes as $key => $cliente) : ?>
+                            <br>
                         <tr>
                             <td><?= $key + 1 ?></td>
                             <td><?= $cliente['CLIENTE_NOMBRE'] ?></td>
