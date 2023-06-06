@@ -36,7 +36,7 @@ require '../../modelos/Cliente.php';
             <div class="col-lg-6">
                 <?php if($resultado): ?>
                     <div class="alert alert-success" role="alert">
-                        Eliminado exitosamente!
+                        Se Elimino exitosamente!
                     </div>
                 <?php else :?>
                     <div class="alert alert-danger" role="alert">
