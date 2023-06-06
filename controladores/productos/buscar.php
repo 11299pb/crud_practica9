@@ -52,7 +52,7 @@ try {
                         <?php endforeach ?>
                         <?php else :?>
                             <tr>
-                                <td colspan="3">NO EXISTEN REGISTROS</td>
+                                <td colspan="3">NO EXISTEN NINGUN REGISTROS</td>
                             </tr>
                         <?php endif?>
                     </tbody>
